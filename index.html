@@ -21,6 +21,7 @@
                 clifford: '#da373d',
                 btn_view: 'rgba(171, 239, 95, 0.5)',
                 banner: 'rgba(240, 240, 240)',
+                bg_primary: 'rgb(30, 30, 30)',
               },
               fontFamily: {
                 manrope: 'Manrope',
@@ -68,7 +69,7 @@
                   </div>
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden flex justify-center items-center bg-[#FFFFFF] w-12 h-12 rounded-full">
-                      <i class="fa-solid fa-bars text-2xl"></i>
+                      <i class="fa-solid fa-bars text-2xl text-gray-500"></i>
                     </div>
                     <ul
                       tabindex="0"
@@ -97,6 +98,46 @@
          </div>
     </header>
     <main>
+      <!-- about us section -->
+      <section class="bg-gray-100">
+        <div class="w-11/12 py-20 mx-auto md:grid md:grid-cols-2 gap-9">
+          <div>
+            <div class="text-center lg:text-left">
+              <div class="hidden lg:block">
+                <img class="border-dashed border-2 border-gray-400 py-4 absolute -mt-16 -ml-8 w-24" src="assets/Vector.png" alt="">
+              </div>
+              <button class="bg-white px-2 rounded-2xl text-[#494949] font-bold"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+            </div>
+            <div>
+              <h2 class="text-2xl text-center lg:text-left md:text-4xl font-extrabold text-[#212121] my-6">We design thoughtful, <br> liveable spaces</h2>
+              <p class="text-[#494949]">Transform your space into a harmonious blend of style and comfort. Our designs focus on creating elegant, functional environments that enhance daily living and offer a perfect retreat from the world.</p>
+            </div>
+            <div>
+              <div class="flex gap-4 shadow-lg p-8 bg-base-100 rounded-xl mt-6">
+                <div class="flex items-center">
+                  <img src="assets/commercial.png" alt="">
+                </div>
+                <div>
+                  <h4 class="text-xl font-extrabold text-[#494949] mb-2">Commercial</h4>
+                  <p class="md:w-80">Innovative designs that elevate your brand and drive productivity.</p>
+                </div>
+              </div>
+              <div class="flex gap-4 shadow-lg p-8 bg-base-100 rounded-xl my-6 md:mb-0">
+                <div class="flex items-center">
+                  <img src="assets/residential.png" alt="">
+                </div>
+                <div>
+                  <h4 class="text-xl font-extrabold text-[#494949] mb-2">Residential</h4>
+                  <p class="md:w-80">Elegant designs that turn your house into a personalized, comfortable haven</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="h-5/6 lg:h-full w-full" src="assets/Rectangle.png" alt="">
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
 
