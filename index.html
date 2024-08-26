@@ -28,7 +28,7 @@
                 manrope: 'Manrope',
               },
               backgroundImage: {
-                
+                discussBg: "url('./assets/bg.jpg')",
               },
             },
           },
@@ -64,7 +64,7 @@
                         <i class="fa-solid fa-cart-shopping text-[#737373]"></i>
                       </div>
                       <div>
-                        <a class="btn bg-[#ABEF5F] rounded-3xl text-xl font-extrabold text-[#1C1C1C]">Book Consult <span class="flex items-center justify-center bg-black w-8 h-8 rounded-full"><i class="fa-solid fa-arrow-right text-lg -rotate-45 text-white"></i></span></a>
+                        <a class="btn bg-[#ABEF5F] rounded-[32px] text-xl font-extrabold text-[#1C1C1C]">Book Consult <span class="flex items-center justify-center bg-black w-8 h-8 rounded-full"><i class="fa-solid fa-arrow-right text-lg -rotate-45 text-white"></i></span></a>
                       </div>
                     </div>
                   </div>
@@ -94,7 +94,7 @@
           <div class="flex flex-col items-center">
             <h1 class="lg:text-6xl text-3xl text-[#212121] font-extrabold text-center my-6">A barn house of this design has a <br class="hidden md:block"> striking appearance</h1>
             <p class="text-[#494949] max-w-4xl mx-auto text-center mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-            <a class="btn bg-btn_view rounded-3xl px-6 text-[#212121] text-xl font-extrabold w-full md:w-auto">View Details <span class="flex items-center justify-center bg-[#ABEF5F] w-8 h-8 rounded-full"><i class="fa-solid fa-arrow-right text-lg -rotate-45"></i></span></a>
+            <a class="btn bg-btn_view rounded-[32px] px-6 text-[#212121] text-xl font-extrabold w-full md:w-auto">View Details <span class="flex items-center justify-center bg-[#ABEF5F] w-8 h-8 rounded-full"><i class="fa-solid fa-arrow-right text-lg -rotate-45"></i></span></a>
           </div>
          </div>
     </header>
@@ -178,7 +178,7 @@
       <!-- our latest portfolio section -->
        <section class="bg-gray-100 md:bg-white">
 
-        <div class=" w-11/12 mx-auto pb-8 md:py-20">
+        <div class="w-11/12 mx-auto pb-8 md:py-20">
           <div class="text-center">
             <button class="bg-btn_explore py-2 px-4 rounded-3xl text-[#494949] font-extrabold"><i class="fa-solid fa-arrow-right"></i> Explore Our Latest works</button>
             <h3 class="text-2xl md:text-4xl font-extrabold mt-4 mb-6 text-[#212121]">Our Latest Portfolio</h3>
@@ -226,6 +226,33 @@
         </div>
         
        </section>
+
+       <!-- discuss section -->
+        <section class="bg-discussBg bg-no-repeat bg-cover mt-1 md:my-3">
+          <div class="w-11/12 md:w-9/12 mx-auto py-8 md:py-20 bg-opacity-90">
+            <div class="text-center">
+              <button class="bg-btn_explore py-2 px-4 rounded-3xl text-[#494949] font-extrabold"><i class="fa-solid fa-arrow-right"></i> Let's connect</button>
+              <h3 class="text-2xl md:text-4xl font-extrabold mt-4 mb-4 md:mb-6 text-[#212121]">Let's Discuss Next <br class="block md:hidden"> Project</h3>
+              <p class="text-[#494949] font-medium md:w-4/5 mx-auto mb-4 md:mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+
+            <!-- inputs -->
+            <div class="md:flex gap-6">
+              <input class="w-full mb-6 p-4 md:p-5 rounded-[64px] border-none outline-none" type="text" placeholder="First Name*">
+              <input class="w-full mb-6 p-4 md:p-5 rounded-[64px] border-none outline-none" type="text" placeholder="Last Name*">
+            </div>
+            <div class="md:flex gap-6">
+              <input class="w-full mb-6 p-4 md:p-5 rounded-[64px] border-none outline-none" type="number" name="" id="" placeholder="Phone Number*">
+              <input class="w-full mb-6 p-4 md:p-5 rounded-[64px] border-none outline-none" type="email" name="" id="" placeholder="Email*">
+            </div>
+            <div>
+              <textarea class="w-full p-5 rounded-[32px] border-none outline-none" name="" id="" rows="8" placeholder="Write your message here"></textarea>
+            </div>
+            <div>
+              <a class="btn w-full bg-[#ABEF5F] rounded-[32px] text-xl font-extrabold text-[#1C1C1C] mt-6 md:mt-8">Send Mail <span class="flex items-center justify-center bg-black w-8 h-8 rounded-full"><i class="fa-solid fa-arrow-right text-lg -rotate-45 text-white"></i></span></a>
+            </div>
+          </div>
+        </section>
     </main>
     <footer>
 
